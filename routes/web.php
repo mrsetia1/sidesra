@@ -15,6 +15,7 @@ Route::middleware(['auth'])->group(function(){
     Route::get('tags/{id}', 'TagController@show');
     Route::get('comments', 'CommentController@index');
     Route::get('comments/{id}', 'CommentController@show');
+    Route::get('users', 'UserController@index');
 
 });
 Auth::routes(['verify' => true]);
