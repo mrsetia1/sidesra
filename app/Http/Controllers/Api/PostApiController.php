@@ -3,17 +3,16 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\CategoryResource;
-use App\Http\Resources\PostsResource;
+use App\Http\Resources\PostResource;
+use App\Post;
 use Illuminate\Http\Request;
-use App\Category;
 
-class CategoryApiController extends Controller
+class PostApiController extends Controller
 {
     public function index()
     {
-        $categories = Category::all();
-        return CategoryResource::collection($categories);
+        $posts = Post::with(['author','images','videos','category','tags'])->paginate();
+        return PostResource::collection($posts);
     }
     
     public function posts($id)
@@ -23,5 +22,4 @@ class CategoryApiController extends Controller
         
         return new PostsResource($posts);
     }
-
 }
