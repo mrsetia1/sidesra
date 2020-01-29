@@ -151,10 +151,10 @@
     <section id="about" class="section-bg">
       <div class="container-fluid">
         <div class="section-header">
-          <h3 class="section-title">Tentang DesaKu</h3>
+          <h3 class="section-title">Tentang Sidesra</h3>
           <span class="section-divider"></span>
           <p class="section-description">
-            DesaKU adalah aplikasi mobile berbasis smatphone yang digunakan untuk memudahkan penyebaran informasi dari pemerintah desa kepada warganya baik itu program pemerintah desa itu sendiri maupun informasi mengenai program pemerintahan lainnya dan sarana komunikasi warga untuk memberi masukan ataupun laporan pada satu desa.
+            Sidesra adalah aplikasi mobile berbasis smatphone yang digunakan untuk memudahkan penyebaran informasi dari pemerintah desa kepada warganya baik itu program pemerintah desa itu sendiri maupun informasi mengenai program pemerintahan lainnya dan sarana komunikasi warga untuk memberi masukan ataupun laporan pada satu desa.
           </p>
         </div>
 
