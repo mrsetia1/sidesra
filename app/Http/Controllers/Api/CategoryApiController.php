@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
+use App\Category;
+use App\Http\Resources\CategoriesResource;
 use App\Http\Resources\CategoryResource;
+use App\Http\Resources\PostResource;
 use App\Http\Resources\PostsResource;
 use Illuminate\Http\Request;
-use App\Category;
+use App\Http\Controllers\Controller;
 
 class CategoryApiController extends Controller
 {
@@ -18,10 +20,9 @@ class CategoryApiController extends Controller
     
     public function posts($id)
     {
-        $categories = Category::find($id);
-        $posts = $categories->posts;
-        
-        return new PostsResource($posts);
+        $category = Category::find($id);
+        $posts = $category->posts;
+        return PostResource::collection( $posts );
     }
 
 }

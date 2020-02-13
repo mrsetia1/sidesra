@@ -27,10 +27,12 @@ class CategoryController extends Controller
         $request->validate([
             'category_title' => 'required',
             'category_color' => 'required',
+            'category_icon' => 'required',
         ]);
         $category = new Category();
         $category->title = $request->get('category_title');
         $category->color = $request->get('category_color');
+        $category->color = $request->get('category_icon');
         $category->save();
         return redirect()->back()->with('success','Kategori berhasil ditambahkan');
     }
