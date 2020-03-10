@@ -5,6 +5,7 @@ Route::get('/', function () {
     $posts = App\Post::all()->skip(10)->take(5);
     return view('home.index',compact('posts'));
 });
+Route::get('/mobile', 'DashboardController@mobile'); 
 
 Route::middleware(['auth'])->group(function(){
     Route::get('/identitasdesa', 'DesaController@index');
@@ -20,6 +21,14 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/pendaftaranusaha', 'AkunController@pendaftaranusaha');
     Route::get('/penduduk/{id}/profil', 'PendudukController@profil');
     Route::get('/dashboard', 'DashboardController@index'); 
+
+    Route::get('/application', 'SettingController@application');
+
+    Route::get('/barang', 'MasterController@barang');
+    Route::get('/kategori', 'MasterController@kategori');
+    Route::get('/brand', 'MasterController@brand');
+    
+    Route::get('/project', 'ProjectController@index');
 
     Route::get('categories', 'CategoryController@index');
     Route::post('categories', 'CategoryController@store')->name('save-category');
