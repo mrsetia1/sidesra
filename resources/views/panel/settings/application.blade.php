@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.panel')
 @section('content')
 @if(session('sukses'))
 <div class="alert alert-success" role="alert">

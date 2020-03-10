@@ -10,7 +10,7 @@ class DashboardController extends Controller
         
             $data_desa = \App\Desa::all();
             
-        return view('dashboard.index',['data_desa'=> $data_desa]);
+        return view('panel.dashboard.index',['data_desa'=> $data_desa]);
     }
     public function mobile(Request $request){
         
