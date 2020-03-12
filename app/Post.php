@@ -32,5 +32,8 @@ class Post extends Model
     public function link(){
         return '/posts/'.$this->id;
     }
-
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }

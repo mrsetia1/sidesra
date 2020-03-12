@@ -10,7 +10,7 @@ class CategoryController extends Controller
     
     //GET ALL
     public function index(){
-        return view('categories.index')->with([
+        return view('panel.categories.index')->with([
             'categories' => Category::all(),
         ]);
     
@@ -18,7 +18,7 @@ class CategoryController extends Controller
 
     //GET by ID
     public function show($id){
-        return view('categories.category')->with([
+        return view('panel.categories.category')->with([
             'category' => Category::find($id),
         ]);
     }

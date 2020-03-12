@@ -235,7 +235,7 @@
               </ul>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="{{route('posts.add')}}" class="nav-link">
+                  <a href="{{route('add-post')}}" class="nav-link">
                     <i class="fa fa-edit nav-icon"></i>
                     <p>Buat Artikel</p>
                   </a>

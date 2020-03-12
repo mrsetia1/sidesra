@@ -9,7 +9,7 @@ class TagController extends Controller
 {
     //GET ALL
     public function index(){
-        return view('tags.index')->with([
+        return view('panel.tags.index')->with([
             'tags' => Tag::all(),
         ]);
     
@@ -18,7 +18,7 @@ class TagController extends Controller
     //GET by ID
     public function show($id){
         $tag = Tag::find($id);
-        return view('tags.tag')->withTag($tag);
+        return view('panel.tags.tag')->withTag($tag);
     }
 
     public function store(Request $request){

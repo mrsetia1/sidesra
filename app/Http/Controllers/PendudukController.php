@@ -21,7 +21,7 @@ class PendudukController extends Controller
         }else{
             $data_penduduk = \App\Penduduk::paginate(10);
         }
-        return view('penduduk.index',['data_penduduk'=> $data_penduduk]);
+        return view('panel.penduduk.index',['data_penduduk'=> $data_penduduk]);
     }
 
     public function create(Request $request){
@@ -66,7 +66,7 @@ class PendudukController extends Controller
 
     public function profil($id){
         $penduduk = \App\Penduduk::find($id);
-        return view('penduduk.profil',['penduduk'=>$penduduk]);
+        return view('panel.penduduk.profil',['penduduk'=>$penduduk]);
 
     }
 

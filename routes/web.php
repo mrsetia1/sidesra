@@ -41,8 +41,10 @@ Route::middleware(['auth'])->group(function(){
 
     Route::get('users', 'UserController@index');
     
-    Route::get('posts', 'PostController@index');
+    Route::get('posts', 'PostController@index')->name('posts');
     Route::get('posts/{id}', 'PostController@show');
+    Route::get('new-post' , 'PostController@newPost' )->name('add-post');
+    Route::post('new-post' , 'PostController@store' )->name('save-post');
     Route::get('/posts/add', [
         'uses'=>'PostsController@add',
         'as'=>'posts.add'
