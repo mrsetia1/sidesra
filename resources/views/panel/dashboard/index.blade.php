@@ -9,14 +9,31 @@
     @foreach ($data_desa as $desa)
     <div class="col-12">
         <div class="row">
-            <div class="col-12">
-                <div class="callout callout-info">
+          <div class="col-12">
+            <!-- Widget: user widget style 1 -->
+            <div class="card card-widget widget-user">
+              <!-- Add the bg color to the header using any of the bg-* classes -->
+              <div class="widget-user-header bg-info">
+                <h3 class="widget-user-username">{{$desa->nama_kepala_desa}}</h3>
+                <h6 class="widget-user-desc">Kepala Desa</h6>
+              </div>
+              <div class="widget-user-image">
+                <img class="img-circle elevation-2" src="adminlte/img/kades.jpg" alt="User Avatar">
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-12">
                     <h5>Selamat Datang di Desa {{$desa->nama_desa}}</h5>
-                    <h6>Alamat<br>{{$desa->alamat_kantor}}, Kec. {{$desa->nama_kecamatan}}, Kab. {{$desa->nama_kabupaten}}, {{$desa->nama_propinsi}}<br>
+                    <h6>Alamat :<br>{{$desa->alamat_kantor}}, Kec. {{$desa->nama_kecamatan}}, Kab. {{$desa->nama_kabupaten}}, {{$desa->nama_propinsi}}<br>
                         {{$desa->telepon}} | {{$desa->email_desa}} | {{$desa->website}}
                     </h6>
+              </div>
                 </div>
-        </div>
+                <!-- /.row -->
+              </div>
+            </div>
+            <!-- /.widget-user -->
+          </div>
         </div>
         <div class="row">
             <div class="col-lg-3 col-6">

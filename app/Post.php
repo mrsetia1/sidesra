@@ -10,6 +10,7 @@ class Post extends Model
     protected $fillable = [
         'title','content','post_type','author_id','category_id','meta_data',
     ];
+    protected $dates = ['created_at','updated_at'];
 
     public function author(){
         return $this->belongsTo(User::class,'author_id', 'id');

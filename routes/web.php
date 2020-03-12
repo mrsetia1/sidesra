@@ -12,8 +12,13 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/sejarahdesa', 'DesaController@sejarahdesa');
     Route::get('/wilayahdesa', 'DesaController@wilayahdesa');
     Route::get('/perangkatdesa', 'DesaController@perangkatdesa');
+    // INFO
     Route::get('/kegiatan', 'InfoController@kegiatan');
     Route::get('/berita', 'InfoController@berita');
+    Route::get('/keuangan', 'InfoController@keuangan');
+    Route::get('/prestasi', 'InfoController@prestasi');
+    Route::get('/edukasi', 'InfoController@edukasi');
+    // LAYANAN
     Route::get('/layanan', 'PelayananController@layanan');
     Route::get('/laporan', 'PelayananController@laporan');
     Route::get('/saran', 'PelayananController@saran');

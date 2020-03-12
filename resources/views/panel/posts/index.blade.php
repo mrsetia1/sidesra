@@ -25,8 +25,11 @@
           <!-- /.card-header -->
           <div class="card-body p-0">
             <div class="mailbox-controls">
-                <a href="{{route('add-post')}}"><button type="button" class="btn btn-default btn-sm" ><i class="fas fa-edit"> Buat Artikel</i></button></a>
-              
+                <a href="{{route('add-post')}}">
+                    <button type="button" class="btn btn-default btn-sm" >
+                        <i class="fas fa-edit"> Buat Artikel</i>
+                    </button>
+                </a>
             </div>
             <div class="table-responsive mailbox-messages">
                 <table class="table table-striped projects">
@@ -60,7 +63,7 @@
                                 </a>
                                 <br>
                                 <small>
-                                    {{$post->updated_at}}
+                                    {{$post->updated_at->format('d M Y')}}
                                 </small>
                             </td>
                             <td>
