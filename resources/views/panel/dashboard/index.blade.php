@@ -18,11 +18,12 @@
                 <h6 class="widget-user-desc">Kepala Desa</h6>
               </div>
               <div class="widget-user-image">
-                <img class="img-circle elevation-2" src="adminlte/img/kades.jpg" alt="User Avatar">
+                <img class="img-circle elevation-2" src="images/struktur/tonjong (1).jpg" alt="User Avatar">
               </div>
               <div class="card-footer">
                 <div class="row">
                   <div class="col-12">
+                    <h5>Beberapa fitur masih dalam pengembangan!</h5>
                     <h5>Selamat Datang di Desa {{$desa->nama_desa}}</h5>
                     <h6>Alamat :<br>{{$desa->alamat_kantor}}, Kec. {{$desa->nama_kecamatan}}, Kab. {{$desa->nama_kabupaten}}, {{$desa->nama_propinsi}}<br>
                         {{$desa->telepon}} | {{$desa->email_desa}} | {{$desa->website}}
@@ -39,7 +40,7 @@
             <div class="col-lg-3 col-6">
                 <div class="small-box bg-info">
                     <div class="inner">
-                      <h3>150</h3>
+                      <h3>-</h3>
       
                       <p>Penduduk</p>
                     </div>
@@ -54,7 +55,7 @@
                 <!-- small box -->
               <div class="small-box bg-success">
                 <div class="inner">
-                  <h3>53</h3>
+                  <h3>-</h3>
   
                   <p>RT</p>
                 </div>
@@ -69,7 +70,7 @@
               <!-- small box -->
               <div class="small-box bg-warning">
                 <div class="inner">
-                  <h3>44</h3>
+                  <h3>-</h3>
   
                   <p>RW</p>
                 </div>
@@ -84,7 +85,7 @@
               <!-- small box -->
               <div class="small-box bg-danger">
                 <div class="inner">
-                  <h3>65</h3>
+                  <h3>-</h3>
   
                   <p>Karang Taruna</p>
                 </div>

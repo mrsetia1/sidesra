@@ -32,7 +32,7 @@
 
 <body>
     <a class="navbar-brand" href="{{ url('/') }}">
-        <h1>FIA ANGKASA</h1>
+        <h1>DESA TONJONG</h1>
     </a>
     @yield('content')
     

@@ -29,7 +29,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-bell"></i>
-            <span class="badge badge-danger navbar-badge">3</span>
+            <span class="badge badge-danger navbar-badge">2</span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
             <a href="#" class="dropdown-item">
@@ -38,27 +38,11 @@
                 <img src="/adminlte/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
-                    Brad Diesel
-                    <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                    Agus
+                    <span class="float-right text-sm text-danger"></span>
                   </h3>
-                  <p class="text-sm">Call me whenever you can...</p>
-                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                </div>
-              </div>
-              <!-- Message End -->
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <!-- Message Start -->
-              <div class="media">
-                <img src="/adminlte/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                <div class="media-body">
-                  <h3 class="dropdown-item-title">
-                    John Pierce
-                    <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                  </h3>
-                  <p class="text-sm">I got your message bro</p>
-                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  <p class="text-sm">Melaporkan - Jalan rusak di RT 1</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Jam yang lalu</p>
                 </div>
               </div>
               <!-- Message End -->
@@ -70,17 +54,17 @@
                 <img src="/adminlte/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
-                    Nora Silvester
-                    <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                    Sari
+                    <span class="float-right text-sm text-warning"></span>
                   </h3>
-                  <p class="text-sm">The subject goes here</p>
-                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  <p class="text-sm">Melaporkan - Tumpukan sampah</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 7 Jam yang lalu</p>
                 </div>
               </div>
               <!-- Message End -->
             </a>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+            <a href="#" class="dropdown-item dropdown-footer">Lihat semua laporan</a>
           </div>
         </li>
         <li class="nav-item">
@@ -99,7 +83,7 @@
              alt="AdminLTE Logo"
              class="brand-image img-circle elevation-3"
              style="opacity: .8">
-        <span class="brand-text font-weight-light">FIA ANGKASA</span>
+        <span class="brand-text font-weight-light">{{config('desa.title')}}</span>
       </a>
   
       <!-- Sidebar -->
@@ -209,7 +193,7 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="/laporan" class="nav-link">
+                  <a href="/dashboard" class="nav-link">
                     <i class="fa fa-sync nav-icon"></i>
                     <p>Laporan</p>
                   </a>
@@ -325,13 +309,13 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="/profiluser" class="nav-link">
+                  <a href="/dashboard" class="nav-link">
                     <i class="fa fa-user nav-icon"></i>
                     <p>Profil Saya</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/pendaftaranusaha" class="nav-link">
+                  <a href="/dashboard" class="nav-link">
                     <i class="fa fa-file-signature nav-icon"></i>
                     <p>Pendaftaran Usaha</p>
                   </a>
@@ -350,34 +334,6 @@
               </ul>
             </li>
             
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-circle"></i>
-                <p>
-                  Level 1
-                  <i class="right fas fa-angle-left"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item has-treeview">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>
-                      Level 2
-                      <i class="right fas fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">
-                        <i class="far fa-dot-circle nav-icon"></i>
-                        <p>Level 3</p>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
@@ -401,7 +357,7 @@
     <!-- /.content-wrapper -->
     <footer class="main-footer">
       <div class="float-right d-none d-sm-block">
-        <b>Versi DesaKU</b> 1.0.0
+        <b>Versi SIDESRA</b> 1.0.0
       </div>
       <strong>Copyright &copy; 2020 <a href="http://fiaangkasa.co.id">fiaangkasa.co.id</a>.</strong> All rights
       reserved.

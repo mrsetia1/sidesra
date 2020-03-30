@@ -7,8 +7,8 @@ return[
     'image_banner_url' => 'avilon/img/banner1.jpg',
     'welcome_message' => 'SELAMAT DATANG DI DESA TONJONG',
     'welcome_message_sub' => 'Kec. Tonjong, Kab. Brebes - Jawa Tengah',
-    'welcome_message_button_text' => 'JELAJAHI',
-    'welcome_message_button_url' => '/jelajah',
+    'welcome_message_button_text' => 'DAFTAR',
+    'welcome_message_button_url' => '/register',
 
     'telepon' => '085622',
     'email' => 'tonjong02@gmail.com',

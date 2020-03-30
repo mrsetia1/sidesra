@@ -51,26 +51,22 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#corona">Corona</a></li>
           <li><a href="#team">Struktur</a></li>
           <li><a href="#about">Tentang Kami</a></li>
-          <li><a href="#features">Fitur</a></li>
-          <li><a href="#pricing">Pricing</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="">Fitur</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+              <li><a href="#features">Berita</a></li>
+              <li class="menu-has-children"><a href="#">BUMDES</a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">UKM</a></li>
+                  <li><a href="#">Jasa</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li><a href="#">Kegiatan</a></li>
+              <li><a href="#">Keuangan</a></li>
+              <li><a href="#">Laporan</a></li>
             </ul>
           </li>
           <li><a href="#contact">Hubungi Kami</a></li>
@@ -156,7 +152,7 @@
           <h3 class="section-title">Tentang Sidesra</h3>
           <span class="section-divider"></span>
           <p class="section-description">
-            Sidesra adalah aplikasi mobile berbasis smatphone yang digunakan untuk memudahkan penyebaran informasi dari pemerintah desa kepada warganya baik itu program pemerintah desa itu sendiri maupun informasi mengenai program pemerintahan lainnya dan sarana komunikasi warga untuk memberi masukan ataupun laporan pada satu desa.
+            
           </p>
         </div>
 
@@ -166,22 +162,10 @@
           </div>
 
           <div class="col-lg-6 content wow fadeInRight">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Sidesra adalah aplikasi mobile berbasis smatphone yang digunakan untuk memudahkan penyebaran informasi dari pemerintah desa kepada warganya baik itu program pemerintah desa itu sendiri maupun informasi mengenai program pemerintahan lainnya dan sarana komunikasi warga untuk memberi masukan ataupun laporan pada satu desa.
             </p>
-
-            <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
-            </p>
-          </div>
+         </div>
         </div>
 
       </div>
@@ -197,13 +181,13 @@
 
           <div class="col-lg-8 offset-lg-4">
             <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">Fitur-fitur desaku</h3>
+              <h3 class="section-title">Fitur-fitur SIDESRA</h3>
               <span class="section-divider"></span>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="/avilon/img/product-features1.png" alt="" class="wow fadeInLeft">
+            <img src="/avilon/img/product-features.png" alt="" class="wow fadeInLeft">
           </div>
 
           <div class="col-lg-8 col-md-7 ">
@@ -212,23 +196,23 @@
 
               <div class="col-lg-6 col-md-6 box wow fadeInRight">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                <h4 class="title"><a href="">Kegiatan</a></h4>
+                <p class="description">Informasi kegiatan yang ada di Desa.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
                 <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+                <h4 class="title"><a href="">Keuangan</a></h4>
+                <p class="description">Informasi data keuangan.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
                 <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+                <h4 class="title"><a href="">Laporan</a></h4>
+                <p class="description">Interaksi laporan masyarakat.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
                 <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+                <h4 class="title"><a href="">BUMDES</a></h4>
+                <p class="description">Pengembangan aplikasi Badan Usaha Milik Desa.</p>
               </div>
             </div>
 
@@ -243,7 +227,7 @@
     <!--==========================
       More Features Section
     ============================-->
-    <section id="more-features" class="section-bg">
+    {{-- <section id="more-features" class="section-bg">
       <div class="container">
 
         <div class="section-header">
@@ -288,7 +272,7 @@
 
         </div>
       </div>
-    </section><!-- #more-features -->
+    </section><!-- #more-features --> --}}
 
     <!--==========================
       Our Team Section
@@ -302,74 +286,117 @@
         <div class="row wow fadeInUp">
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/ri1.png" alt=""></div>
-              <h4>Joko Widodo</h4>
-              <span>Presiden RI</span>
+              <div class="pic"><img src="/images/struktur/tonjong (1).jpg" alt=""></div>
+              <h4>Samsudin</h4>
+              <span>Kepala Desa</span>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/ri2.png" alt=""></div>
-              <h4>KH. Ma'ruf Amin</h4>
-              <span>Wakil Presiden</span>
+              <div class="pic"><img src="/images/struktur/tonjong (2).jpg" alt=""></div>
+              <h4>Romedon</h4>
+              <span>Sekretaris Desa</span>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/jabar1.png" alt=""></div>
-              <h4>Ridwan Kamil</h4>
-              <span>Gubernur Jawa Barat</span>
+              <div class="pic"><img src="/images/struktur/tonjong (3).jpg" alt=""></div>
+              <h4>Mahmud</h4>
+              <span>Kepala Dusun I</span>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/jabar2.png" alt=""></div>
-              <h4>Uu Ruzhanul Ulum</h4>
-              <span>Wakil Gubernur Jawa Barat</span>
+              <div class="pic"><img src="/images/struktur/tonjong (4).jpg" alt=""></div>
+              <h4>Muhammad Subhan</h4>
+              <span>Kepala Dusun II</span>
             </div>
           </div>
         </div>
         <div class="row wow fadeInUp">
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/garut1.png" alt=""></div>
-              <h4>Rudy Gunawan</h4>
-              <span>Bupati Garut</span>
+              <div class="pic"><img src="/images/struktur/tonjong (5).jpg" alt=""></div>
+              <h4>Toto Ismanto</h4>
+              <span>Kepala Dusun III</span>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/garut2.png" alt=""></div>
-              <h4>dr. H. Helmi Budiman</h4>
-              <span>Wakil Bupati Garut</span>
+              <div class="pic"><img src="/images/struktur/tonjong (6).jpg" alt=""></div>
+              <h4>Supardi WB</h4>
+              <span>Kepala Dusun IV</span>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/camat.png" alt=""></div>
-              <h4>Drs.Sardiman Tanjung</h4>
-              <span>Camat Cibatu</span>
+              <div class="pic"><img src="/images/struktur/tonjong (7).jpg" alt=""></div>
+              <h4>Tachroni</h4>
+              <span>Kepala Dusun V</span>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="/images/struktur/kades.png" alt=""></div>
-              <h4>Cecep Kurniansyah</h4>
-              <span>Kepala Desa Kertajaya</span>
+              <div class="pic"><img src="/images/struktur/tonjong (8).jpg" alt=""></div>
+              <h4>Yusuf</h4>
+              <span>Kadus VI</span>
             </div>
           </div>
         </div>
 
+        <div class="row wow fadeInUp">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="/images/struktur/tonjong (9).jpg" alt=""></div>
+              <h4>Rinto</h4>
+              <span>Kasie Kesejahteraan</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="/images/struktur/tonjong (10).jpg" alt=""></div>
+              <h4>Roip</h4>
+              <span>Kasie Pelayanan</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="/images/struktur/tonjong (11).jpg" alt=""></div>
+              <h4>Suhermanto</h4>
+              <span>Kasie Pemerintahan</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="/images/struktur/tonjong (12).jpg" alt=""></div>
+              <h4>Ahmad Zaenudin</h4>
+              <span>Kaur Keuangan</span>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="/images/struktur/tonjong (13).jpg" alt=""></div>
+              <h4>Khusnul Mubarok</h4>
+              <span>Kaur Umum & TU</span>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section><!-- #team -->
 
-    <!--==========================
+    {{-- <!--==========================
       Gallery Section
     ============================-->
     <section id="gallery">
@@ -433,34 +460,29 @@
         </div>
 
       </div>
-    </section><!-- #gallery -->
+    </section><!-- #gallery --> --}}
     
     <!--==========================
       Product Advanced Featuress Section
     ============================-->
-    <section id="advanced-features">
+    <section id="corona">
       <div class="section-header">
-        <h2 class="section-title">Artikel Terbaru</h2>
         <span class="section-divider"></span>
         
       </div>
       
-      @foreach ($posts as $post)
       <div class="features-row">
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <img class="advanced-feature-img-left" src="{{$post->thumbnail()}}" alt="thumbnail">
-              <div class="wow fadeInRight">
-                <h2>{{$post->title}}</h2>
-                <a href="{{route('site.single.post',$post->slug)}}">Baca selengkapnya</a>
-              </div>
-            </div>
+            
+            <div class="col-md-12">
+              <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-22416e93-b2a3-4903-91f5-595ce5345aba"></div>
+              </div><!-- .col-md-12 -->
           </div>
         </div>
       </div>
 
-      @endforeach
     </section><!-- #advanced-features -->
 
 
@@ -471,10 +493,10 @@
       <div class="container">
         <div class="row wow fadeInUp">
 
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-6 col-md-6">
             <div class="contact-about">
               <h3>{{config('desa.title_header')}}</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              {{-- <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p> --}}
               <div class="social-links">
                 <a href="{{config('desa.twitter')}}" class="twitter"><i class="fa fa-twitter"></i></a>
                 <a href="{{config('desa.facebook')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -483,7 +505,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-6 col-md-6">
             <div class="info">
               <div>
                 <i class="ion-ios-location-outline"></i>
@@ -506,33 +528,6 @@
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form>
-            </div>
-          </div>
 
         </div>
 
@@ -549,11 +544,11 @@
       <div class="row">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>DesaKU</strong>. All Rights Reserved
+            &copy; Copyright <strong>SIDESRA</strong>. All Rights Reserved
           </div>
           <div class="credits">
             
-            DesaKU versi 1.0.0 by <a href="https://fiaangkasa.co.id/">fiaangkasa</a>
+            SIDESRA versi 1.0.0 by <a href="https://fiaangkasa.co.id/">fiaangkasa</a>
           </div>
         </div>
         <div class="col-lg-6">

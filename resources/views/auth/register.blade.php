@@ -49,7 +49,7 @@
             </div>
             
             <button type="submit" class="btn btn-primary">
-                {{ __('Register') }}
+                {{ __('DAFTAR') }}
             </button>
         </form>
         <p class=" w3l-register-p">Sudah punya akun?<a href="/login" class="register"> LOGIN</a></p>
